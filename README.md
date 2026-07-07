@@ -93,6 +93,7 @@ and 28+ Polly v8 resilience packages. I'm available for consulting on **Polly v8
 | [**AutoMap.Generator**](https://github.com/Swevo/AutoMap.Generator) | Compile-time object mapping — `[Map(typeof(Dto))]` generates `ToDto()` extension methods. |
 | [**EFCore.Outbox**](https://github.com/Swevo/EFCore.Outbox) | Transactional outbox pattern for EF Core. |
 | [**AutoDispatch.Generator**](https://github.com/Swevo/AutoDispatch.Generator) | Compile-time CQRS dispatcher — free alternative to MediatR's commercial license. |
+| [**PollyAnalyzers**](https://github.com/Swevo/PollyAnalyzers) | Free Roslyn analyzers for async/resilience anti-patterns — blocking calls, async void, fire-and-forget tasks, swallowed exceptions. |
 
 ## License
 
