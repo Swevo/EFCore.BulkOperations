@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EFCore.BulkOperations/EFCore.BulkOperations.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EFCore.BulkOperations.Tests/EFCore.BulkOperations.Tests.csproj" />
+  </Folder>
+</Solution>
