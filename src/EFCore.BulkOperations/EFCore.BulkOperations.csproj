@@ -6,13 +6,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
 
     <PackageId>Swevo.EFCore.BulkOperations</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Justin Bannister</Authors>
     <Copyright>Copyright (c) 2026 Justin Bannister</Copyright>
     <Description>Free, MIT-licensed bulk insert/update/delete for EF Core. SqlBulkCopy-backed BulkInsertAsync for SQL Server (with an automatic chunked-SaveChanges fallback for other providers), plus BulkUpdateAsync/BulkDeleteAsync convenience wrappers around ExecuteUpdate/ExecuteDelete. A free alternative to Z.EntityFramework.Extensions' paid bulk operations.</Description>
     <PackageTags>efcore;entity-framework;bulk-insert;bulk-update;bulk-delete;sqlbulkcopy;performance;dotnet;csharp;free;mit</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/Swevo/EFCore.BulkOperations</RepositoryUrl>
     <PackageProjectUrl>https://github.com/Swevo/EFCore.BulkOperations</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -22,10 +23,11 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <Deterministic>true</Deterministic>
     <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
-    <PackageReleaseNotes>1.0.0: Initial release. BulkInsertAsync (SqlBulkCopy for SQL Server, chunked fallback for other providers), BulkUpdateAsync, BulkDeleteAsync.</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.1: Add missing package icon. 1.0.0: Initial release. BulkInsertAsync (SqlBulkCopy for SQL Server, chunked fallback for other providers), BulkUpdateAsync, BulkDeleteAsync.</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="" />
+    <None Include="..\..\icon.png" Pack="true" PackagePath="" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.*" />
